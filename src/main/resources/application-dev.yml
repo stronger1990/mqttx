@@ -14,7 +14,7 @@ logging:
   level:
     root: info
   file:
-    path: d:/mqttx/logs
+    path: /mqttx/logs  # Windows用绝对路径 d:/mqttx/logs
 
 #mqttx 配置项说明见 readme.md #6.1 配置项
 #下方是配置示例，供参考

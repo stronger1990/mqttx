@@ -202,10 +202,8 @@ public class MqttxConfig {
      */
     @Data
     public static class Socket {
-
         /** 开关 */
         private Boolean enable = true;
-
         /** 监听端口 */
         private Integer port = 1883;
     }
@@ -215,13 +213,10 @@ public class MqttxConfig {
      */
     @Data
     public static class WebSocket {
-
         /** 开关 */
         private Boolean enable = false;
-
         /** 监听端口 */
         private Integer port = 8083;
-
         /** uri */
         private String path = "/mqtt";
     }
